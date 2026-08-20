@@ -28,13 +28,13 @@ header {
 
 header > h1 {
     font-family: 'Archivo Black';
-    font-size: 5em;
+    font-size: 5vw;
     margin-top: 30px;
 }
 
 header > h2 {
     font-family: 'Fira Sans';
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: normal;
     margin-bottom: 30px;
 }
@@ -57,7 +57,7 @@ header > h2 > a:hover {
 }
 
 main {
-    font: bold 3em 'Comic Neue';
+    font: bold 3vw 'Comic Neue';
     line-height: 1.8em;
 }
 
@@ -68,7 +68,7 @@ body main main{
 #bloco1 {
     color: white;
     line-height: 1.8em;
-    background-image: linear-gradient(to top, #032004, #011500, #000B00);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 20px;
     border-radius: 0px 0px 10px 10px;
     max-width: 571px;
@@ -76,6 +76,7 @@ body main main{
 }
 
 #imagem_bloco1 {
+    box-shadow: inset 5px 4px 14px rgba(0, 0, 0, 0.418);
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,7 +86,7 @@ body main main{
 }
 
 .paragrafos_normais {
-    margin: 50px;
+    margin: 10vh;
     display: block;
 }
 
@@ -99,6 +100,7 @@ body main main{
 }    
 
 #imagem_bloco2 {
+    box-shadow: inset 5px 4px 14px rgba(0, 0, 0, 0.418);
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,14 +111,14 @@ body main main{
 
 footer {
     font-family: 'Archivo_Black';
-    font-size: 18px;
+    font-size: 1.2vw;
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-footer  a {
+footer a {
     font-weight: bold;
     color: white;
     text-decoration-line: none;
